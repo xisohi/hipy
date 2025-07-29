@@ -6,7 +6,7 @@ def load_categories_from_moban():
     categories = {}
     current_category = None
     try:
-        with open("moban.txt", "r", encoding="utf-8") as f:
+        with open("TV/moban.txt", "r", encoding="utf-8") as f:
             for line in f:
                 line = line.strip()
                 if not line:
@@ -61,7 +61,7 @@ if content:
     sorted_content.extend(filtered_lines)
 
     # 保存文件
-    with open("live.txt", "w", encoding="utf-8") as f:
+    with open("TV/live.txt", "w", encoding="utf-8") as f:
         f.write("\n".join(sorted_content))
 else:
     print("未获取到内容，无法进行排序。")
