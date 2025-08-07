@@ -14,7 +14,7 @@ def load_categories_from_moban():
                     current_category = line.split(",")[0].strip()
                     categories[current_category] = []
                 elif current_category:
-                    channel = line.split(",")[0].strip()
+                    channel = line.strip()
                     if channel:
                         categories[current_category].append(channel)
     except FileNotFoundError:
@@ -23,8 +23,8 @@ def load_categories_from_moban():
 
 # ✅ 两个源地址
 urls = [
-    "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-    "https://fanmingming.com/txt?url=https://sub.ottiptv.cc/iptv.m3u"
+    "https://fanmingming.com/txt?url=https://sub.ottiptv.cc/iptv.m3u",
+    "https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u"
 ]
 
 content = ""
@@ -45,17 +45,23 @@ lines = content.splitlines()
 sorted_content = []
 all_lines = [line.strip() for line in lines if line.strip() and "#genre#" not in line]
 
+# ✅ 记录已匹配行
+matched_lines = set()
+
 for category, channels in categories.items():
     sorted_content.append(f"{category},#genre#")
     for channel in channels:
         for line in all_lines:
             if re.match(rf"^\s*{re.escape(channel)}\s*,", line, re.IGNORECASE):
                 sorted_content.append(line)
+                matched_lines.add(line)
     sorted_content.append("")
 
-# ✅ 剩余内容全部归入“其它”，不去重
-sorted_content.append("其它,#genre#")
-sorted_content.extend(all_lines)
+# ✅ 剩余未匹配的归入“其它”
+other_lines = [line for line in all_lines if line not in matched_lines]
+if other_lines:
+    sorted_content.append("其它,#genre#")
+    sorted_content.extend(other_lines)
 
 with open("TV/live.txt", "w", encoding="utf-8") as f:
     f.write("\n".join(sorted_content))
