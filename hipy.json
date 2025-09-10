@@ -8,6 +8,7 @@
 		{"key": "hipy_南瓜影视[优]","name": "🎃南瓜影视[优]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/南瓜影视[优].js","searchable": 1,"quickSearch": 0,"filterable": 1},
 		{"key": "hipy_荐片[优]","name": "🧲荐片[优]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/荐片[优].js","searchable": 1,"quickSearch": 0,"filterable": 1,"playerType": 1},
 		{"key": "hipy_可可影视[优]","name": "🉑可可影视[优]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/可可影视[优].js","searchable": 1,"quickSearch": 0,"filterable": 1},
+		{"key": "hipy_可可影视","name": "🉑可可影视","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/可可影视.js","searchable": 1,"quickSearch": 0,"filterable": 1},
 		{"key": "hipy_烧火影视[优]","name": "🔥烧火影视[优]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/烧火影视[优].js","searchable": 1,"quickSearch": 0,"filterable": 1},
 		{"key": "hipy_哈皮影视[优]","name": "哈皮影视[优]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/哈皮影视[优].js","searchable": 1,"quickSearch": 0,"filterable": 1},
 		{"key": "hipy_一起看[优]","name": "👁️一起看[优]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/一起看[优].js","searchable": 1,"quickSearch": 0,"filterable": 1},
