@@ -161,7 +161,6 @@
 		{"key": "hipy_笔趣阁[书]","name": "笔趣阁[书]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/笔趣阁[书].js","searchable": 1,"quickSearch": 0,"filterable": 1},
 		{"key": "hipy_顶点小说[书]","name": "顶点小说[书]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/顶点小说[书].js","searchable": 1,"quickSearch": 0,"filterable": 1},
 		{"key": "hipy_顶点小说2[书]","name": "顶点小说2[书]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/顶点小说2[书].js","searchable": 1,"quickSearch": 0,"filterable": 1},
-		{"key": "hipy_飞翔鸟[书]","name": "飞翔鸟[书]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/飞翔鸟[书].js","searchable": 1,"quickSearch": 0,"filterable": 1},
 
 		{"key": "drpy_js_小品网","name": "小品网","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"http://drpy.lcjly.cn/js/小品网.js","searchable": 2,"quickSearch": 0,"filterable": 1}
 	],
