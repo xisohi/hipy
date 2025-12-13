@@ -10,13 +10,13 @@ var rule = {
     filterable: 1,//是否启用分类筛选,
     filter_url: '{{fl.cateId}}-pg-fypage-order--by-{{fl.by|default("time", true)}}-class-0-year-{{fl.year}}-letter-{{fl.letter}}-area-{{fl.area}}-lang-',
     filter: 'H4sIAAAAAAAAA+2Z304TQRyF32WvuZjZtjNT3sBnMFxUbCJRMQE0IYRELQgtCmqkFSz+iZaWiFICIbIIfZnulr6FW7o756CJMeFKMnf9ndOdnW9osl+WOU96ozfnvLvFWW/UGy/MFG/c9ka8ycL9Yjz39k/C9yvx/Khw72Hx4ouTcRwutvql1iCOB+nNjyRxpdU9rffKS0mTQ1Oth+UmGmWb3vJ+VFpEo9E0X4XHJ2iMbaInL6PHVTR53KfcvLSaFLho+W03KFOFfUelSvR0kypsL2wsXdqEjPc3NiiH51WYKhZwWmG9HT4P/n5aWPlLs7/xLEmTIe362xvRj72kSwZ73Vo7Oj5LrxsO9sjOVsN3p0mXDHbNDzvoksEeQK0R1XeTLhlsd9DGdclgu2o7rHwMtz6ltZ3tXXd2o63GeaPTDTbTe3NkqV60w2A7pRoOaXe+so8dJAN2t867W+cu3kq00omPNl3WznblRqe39q1X3kgXt3P6jW5noXdai6rpHwOzvcviUfi9lN5iOPBPZLZYmKKfyPFh9+TzP/5EfOFnkuziI+U+cp9ziVxyLpALymXe5jLPuUFuONfINecKueI8hzzHeRZ5lnPwSuaV4JXMK8ErmVeCVzKvAK9gXgFewbwCvIJ5BXgF8wrwCuYV4BXMK8ArmFeAVzCvAK9gXgFeAV6Zz6e8Fx8pN8gN5xq55lwhV5znkOc4zyLPcp5BnuHcR+5zLpFLzgVy5jXgNcxrwGuY14DXMK8Br2FeA17DvAa8hnkNeA3zGvAa5jXgNcxrwGuYV4NXM68Gr2ZeDV7NvBq8mnk1eDXzavBq5tXg1cyrwauZV4NXM68Gr2ZeBV7FvAq8inkVeBXzKvAq5lXgVcyrwKuYV4FXMa8Cr2JeBV7FvAq88Ud+fNyaxcMjWn0dBmt/PDyi2lG/dpgsMDMRf9U+vYIgar9JmjsTM9N48u0thMupfUyPP5gqDu46NuL5V7RB0MaP4m7QjI0sRUMV+8zAXA7aaYWzi+1jICe4Cscd7TYHToMq51zMuZhzMedizsWcizkXcy52zVwsQy7m7MbZjbMbZzfObpzdOLtxdvP/2032im+acDphpRX9/EovhsxvFf3/Lu/eGTmrclblrMpZlbMqZ1XOqq6ZVfnKvTRyeuP0xumN0xunN05vnN5cI72Z/wVNTNQhri4AAA==',
-    filter_def: {
-        1: {cateId: '1'},
-        2: {cateId: '2'},
-        3: {cateId: '3'},
-        4: {cateId: '4'},
-        26: {cateId: '26'}
-    },
+filter_def: {
+    1: {cateId: '1', by: 'time', year: '', letter: '', area: ''},
+    2: {cateId: '2', by: 'time', year: '', letter: '', area: ''},
+    3: {cateId: '3', by: 'time', year: '', letter: '', area: ''},
+    4: {cateId: '4', by: 'time', year: '', letter: '', area: ''},
+    26: {cateId: '26', by: 'time', year: '', letter: '', area: ''}
+}
     searchUrl: '/index.php?m=vod-search&wd=**',
     searchable: 2,//是否启用全局搜索,
     searchNoPage: 1,//是否关闭搜索分页,
