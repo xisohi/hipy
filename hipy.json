@@ -4,7 +4,7 @@
 	"sites": [
 		{"key": "hipy_农民影视gz","name": "👨‍🌾农民影视","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/农民影视gz.js","searchable": 1,"quickSearch": 0,"filterable": 1},
 		{"key": "hipy_南瓜影视[优]","name": "🎃南瓜影视[优]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/南瓜影视[优].js","searchable": 1,"quickSearch": 0,"filterable": 1},
-		{"key": "hipy_可可影视[优]","name": "🉑可可影视[优]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/可可影视[优].js","searchable": 1,"quickSearch": 0,"filterable": 1},
+		{"key": "hipy_03影院[优]","name": "03影院[优]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/03影院[优].js","searchable": 1,"quickSearch": 0,"filterable": 1},
 		{"key": "hipy_一起看[优]","name": "👁️一起看[优]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/一起看[优].js","searchable": 1,"quickSearch": 0,"filterable": 1},
 		{"key": "hipy_LIBVIO[优]","name": "LIBVIO[优]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/LIBVIO[优].js","searchable": 1,"quickSearch": 0,"filterable": 1},
 		{"key": "hipy_PTT[优]","name": "🗐PTT[优]","type": 3,"api": "./app/t4/files/drpy_libs/drpy2.min.js","ext":"./app/t4/files/drpy_js/PTT[优].js","searchable": 1,"quickSearch": 0,"filterable": 1},
